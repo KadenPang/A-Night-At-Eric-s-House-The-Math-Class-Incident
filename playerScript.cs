@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-  public int numKey = 0;
+  public Inventory inventory;
+  private void Awake() {
+    inventory = new Inventory(5);
+  }
 }
