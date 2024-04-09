@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class InputHandler : MonoBehaviour
 {
+    //Create fields for attaching an input field and a text object in Unity
     [SerializeField] InputField inputField;
     [SerializeField] Text resultText;
 
-
+    //Create a public float so that the answer can be defined within Unity
     public float ans;
 
     public GameObject bruh;
