@@ -19,13 +19,18 @@ public class TextDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If the 'e' key is pressed and playerIsClose is true, execute this code
         if (Input.GetKeyUp(KeyCode.E) && playerIsClose) 
         {
+
+            //If the dialogue is already active and the user presses 'e', run zeroText() which turns off the dialogue panel
             if (dialoguePanel.activeInHierarchy) 
             {
                 zeroText();
             }
             
+
+            //Turn the 
             else
             {
                 dialoguePanel.SetActive(true);
@@ -48,8 +53,10 @@ public class TextDialogue : MonoBehaviour
 
     IEnumerator Typing()
     {
+        //For every character that is in the text to be displayed
         foreach(char letter in dialogue[index].ToCharArray())
         {
+            //Add the next letter to the dialogue text 
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
         }
