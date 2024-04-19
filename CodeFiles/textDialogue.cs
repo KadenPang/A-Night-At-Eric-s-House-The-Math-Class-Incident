@@ -30,7 +30,7 @@ public class TextDialogue : MonoBehaviour
             }
             
 
-            //Turn the 
+            //Turn the dialogue panel on and start typing out the message
             else
             {
                 dialoguePanel.SetActive(true);
@@ -38,12 +38,15 @@ public class TextDialogue : MonoBehaviour
             }
         }
 
+        //If the text displaying is everything that is to be displayed
         if (dialogueText.text == dialogue[index]) 
         {
+            //Make the continue button clickable
             contButton.SetActive(true);
         }
     }
 
+    //Function that erases the text and deactivates the dialogue panel
     public void zeroText()
     {
         dialogueText.text = "";
@@ -73,6 +76,7 @@ public class TextDialogue : MonoBehaviour
             StartCoroutine(Typing());
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
