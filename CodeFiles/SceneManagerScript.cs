@@ -1,3 +1,4 @@
+//imports unity packages
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ public class SceneController : MonoBehaviour
 
     private void Awake()
     {
+        //if an object is attached to the room manager, don't destroy it when going to another room
         if (instance == null)
         {
             instance = this;
