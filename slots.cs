@@ -6,7 +6,7 @@ public class Slot : MonoBehaviour {
 
 
     private Inventory inventory;
-    public int index;
+    public int i;
 
     private void Start()
     {
@@ -17,11 +17,11 @@ public class Slot : MonoBehaviour {
     private void Update()
     {
         if (transform.childCount <= 0) {
-            inventory.items[index] = 0;
+            inventory.isFull[i] = false;
         }
     }
 
-    public void Cross() {
+    public void DropItem() {
 
         foreach (Transform child in transform) {
             child.GetComponent<Spawn>().SpawnItem();
