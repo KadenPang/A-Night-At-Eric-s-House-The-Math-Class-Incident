@@ -11,10 +11,10 @@ Download unity. GG GOOD LUCK DAW HEEHEEE HAW THIS TAKES 3 HOUSE BTW
 Try finding any.
 
 ## Support
-Developpers contact information <br>
-  K: 613-805-5741 kadenpang@gmail.com <br>
-  D: ??? <br>
-  C: 343-204-0702 coktamyssovthingis@gmail.com <br>
+Developpers contact information:
+K: 613-805-5741 kadenpang@gmail.com
+D: ???
+C: 343-204-0702 coktamyssovthingis@gmail.com
 
 ## Sources
 All original baby.
