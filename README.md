@@ -6,3 +6,15 @@ The character the user plays as, Jambo, can traverse the map using four directio
 
 ## Installation
 Download unity. GG GOOD LUCK DAW HEEHEEE HAW THIS TAKES 3 HOUSE BTW
+
+## Known bugs
+Try finding any.
+
+## Support
+Developpers contact information
+  K: 613-805-5741 kadenpang@gmail.com
+  D: ???
+  C: 343-204-0702 coktamyssovthingis@gmail.com
+
+## Sources
+All original baby.
