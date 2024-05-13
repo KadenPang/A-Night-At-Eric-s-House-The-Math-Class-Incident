@@ -1,3 +1,6 @@
+/*
+
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,9 +28,10 @@ public class DawsonDialogue : MonoBehaviour
         health = GameManager.gameManager._playerHealth.Health;
         
       
-        //If the 
+        //If the user presses space and playerIsClose (meaning the player sprite is touching this game object)
         if (Input.GetKeyUp(KeyCode.Space) && playerIsClose)
         {
+            //If text is already showing, turn it off using the zerotext() function
             if (dialoguePanel.activeInHierarchy)
             {
                 zeroText();
@@ -35,12 +39,16 @@ public class DawsonDialogue : MonoBehaviour
 
             else
             {
+                //Set the dialoguePanel to true so that the user can see it 
                 dialoguePanel.SetActive(true);
+                //Run the Typing() function using Coroutine so that it can be stopped before all the code in Typing() is executed
                 StartCoroutine(Typing());
+                //Turn on the inputfield so that the user can see it and can enter values in it
                 inputField.SetActive(true);
             }
         }
 
+        //If all of the text is now displayed, allow the user to press the continue button
         if (dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
@@ -66,6 +74,7 @@ public class DawsonDialogue : MonoBehaviour
         
     }
 
+    //Use IEnumerator to be used with Coroutine, which would allow for the function Typing() to be stopped while it is still executing
     IEnumerator Typing()
     {
         //For every character in the element that is being printed right now, wait for wordSpeed seconds until printing the next letter
