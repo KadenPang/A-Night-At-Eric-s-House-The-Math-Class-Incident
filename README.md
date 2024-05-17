@@ -8,12 +8,14 @@ The character the user plays as, Jambo, can traverse the map using four directio
 Download unity. GG GOOD LUCK DAW HEEHEEE HAW THIS TAKES 3 HOUSE BTW
 
 ## Known bugs
-Try finding any.
+Forgot to put Bowser in room manager so it doesn't remember that you answered his question if u leave his room daw is too lazy ez fix
+the medpack in room 5 completely nukes all the items in the rooms so yeah
+Quit does not work in browser play.
 
 ## Support
 Developpers contact information: <br>
 K: 613-805-5741 kadenpang@gmail.com <br>
-D: ??? <br>
+D: 613-790-9675 da.daw648@gmail.com <br>
 C: 343-204-0702 coktamyssovthingis@gmail.com <br>
 
 ## Sources
