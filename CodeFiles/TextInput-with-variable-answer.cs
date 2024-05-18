@@ -71,5 +71,5 @@ public class InputHandler : MonoBehaviour
 Bibliography
 [1] M. O’Didily, “How to get user input and validate it using Unity,” YouTube, https://www.youtube.com/watch?v=EogkNlAkMI8 (accessed May 17, 2024). 
 [2] B. Wagner, “How to convert a string to a number - C#,” How to convert a string to a number - C# | Microsoft Learn, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number (accessed May 17, 2024). 
-[3] [1] “C# exceptions - try..catch,” C# Exceptions (Try..Catch), https://www.w3schools.com/cs/cs_exceptions.php (accessed May 17, 2024). 
+[3] “C# exceptions - try..catch,” C# Exceptions (Try..Catch), https://www.w3schools.com/cs/cs_exceptions.php (accessed May 17, 2024). 
 */

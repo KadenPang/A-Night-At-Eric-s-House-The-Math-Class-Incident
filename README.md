@@ -19,6 +19,10 @@ D: 613-790-9675 da.daw648@gmail.com <br>
 C: 343-204-0702 coktamyssovthingis@gmail.com <br>
 
 ## Sources
-[1] diving_squid, “Unity 2D NPC Dialogue System tutorial,” YouTube, https://www.youtube.com/watch?v=1nFNOyCalzo (accessed May 17, 2024). 
+diving_squid, “Unity 2D NPC Dialogue System tutorial,” YouTube, https://www.youtube.com/watch?v=1nFNOyCalzo (accessed May 17, 2024). 
+Brackeys, “Top down movement in unity!,” YouTube, https://www.youtube.com/watch?v=whzomFgjT50 (accessed May 17, 2024). 
+M. O’Didily, “How to get user input and validate it using Unity,” YouTube, https://www.youtube.com/watch?v=EogkNlAkMI8 (accessed May 17, 2024). 
+B. Wagner, “How to convert a string to a number - C#,” How to convert a string to a number - C# | Microsoft Learn, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number (accessed May 17, 2024). 
+“C# exceptions - try..catch,” C# Exceptions (Try..Catch), https://www.w3schools.com/cs/cs_exceptions.php (accessed May 17, 2024). 
 
 Images:
