@@ -16,8 +16,12 @@ using UnityEngine;
 
 public class NewPlayerMovement : MonoBehaviour
 {
+    // define a movement speed variable
     public float moveSpeed = 5f;
+    //Access the rigidbody of the game object this file is a component of to be able to move its position
     public Rigidbody2D rb;
+
+    //Create a Vector2 variable to store x and y position
     Vector2 movement;
 
     void Update()
@@ -30,7 +34,7 @@ public class NewPlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        //Move the ridgidbody to a new position which is the original position + new movement * movement speed * Time.fixedDeltaTime
+        //Move the rigidbody to a new position which is the original position + new movement * movement speed * Time.fixedDeltaTime
         //Time.fixedDeltaTime will make sure that it is always at a constant speed, no matter the frame rate
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
