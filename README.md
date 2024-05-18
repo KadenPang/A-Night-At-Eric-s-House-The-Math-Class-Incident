@@ -19,4 +19,6 @@ D: 613-790-9675 da.daw648@gmail.com <br>
 C: 343-204-0702 coktamyssovthingis@gmail.com <br>
 
 ## Sources
-All original baby.
+[1] diving_squid, “Unity 2D NPC Dialogue System tutorial,” YouTube, https://www.youtube.com/watch?v=1nFNOyCalzo (accessed May 17, 2024). 
+
+Images:
