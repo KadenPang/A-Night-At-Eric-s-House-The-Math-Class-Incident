@@ -25,15 +25,5 @@ public class Slot : MonoBehaviour
         }
     }
 
-    public void DropItem()
-    {
-
-        foreach (Transform child in transform)
-        {
-            //child.GetComponent<Spawn>().SpawnDroppedItem();
-            GameManager.gameManager._playerHealth.HealUnit(1);
-            GameObject.Destroy(child.gameObject);
-        }
-    }
 
 }
