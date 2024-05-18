@@ -4,6 +4,9 @@ Kaden Pang,Daw Da, Chingis Toktamyssov
 IN UNITY, this program runs when the user presses the space key while close to whatever this object this file is a component of. 
 Displays to the user some text that which is entered as an element within Unity
 Built off of the textDialogue.cs file
+
+History:
+Upload date: May 1, 2024
 */
 using System.Collections;
 using System.Collections.Generic;

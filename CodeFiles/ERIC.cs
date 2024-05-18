@@ -1,3 +1,16 @@
+/*
+ICS4U
+Kaden Pang, Daw Da, Chingis Toktamyssov
+Another file that was used for testing the NPC interactions.
+Not used for anything in the final program
+File used in the final game is DawsonDialogue.cs
+File with the intial code taken from online is textDialogue.cs
+Both of those files have comments and code that are used here
+
+History:
+Upload date: May 1, 2024
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,6 +32,7 @@ public class TextDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // If the space key is pressed while the player is touching the collide of the game object that this file is a component of, start the dialogue
         if (Input.GetKeyUp(KeyCode.Space) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)

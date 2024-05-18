@@ -3,6 +3,9 @@ ICS4U
 Kaden Pang
 This program is meant for dialogue coming from NPCs. Code was taken from online and used for learning and testing purposes. 
 The modified version that is specific to A Night at Eric's house is in the DawsonDialogue.cs file
+
+History:
+Upload date: March 13, 2024
 */
 using System.Collections;
 using System.Collections.Generic;
