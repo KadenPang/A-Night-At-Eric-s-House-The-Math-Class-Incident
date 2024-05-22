@@ -7,9 +7,16 @@ The character the user plays as, Jambo, can traverse the map using four directio
 ## Installation
 Follow the following steps in order to install and modify the game to one's own liking. 
 
+1. Install Unity and open a new project
+2. Download all files from this project. This includes the images, tileset and scripts.
+3. Add the downloaded files to the project
+4. Download the .unity files from the github, these are the scenes.
+5. Add them to unity scenes and everything should automatically be attached together.
+6. Edit anything you wish!
+   
 ## Known bugs
 Forgot to put Bowser in room manager so it doesn't remember that you answered his question if u leave his room daw is too lazy ez fix
-the medpack in room 5 completely nukes all the items in the rooms so yeah
+the medpack in room 5 completely nukes all the items in the room
 Quit does not work in browser play.
 
 ## Support
