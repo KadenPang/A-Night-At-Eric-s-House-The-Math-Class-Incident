@@ -1,3 +1,12 @@
+/*
+ICS4U
+Kaden Pang,Daw Da, Chingis Toktamyssov
+IN UNITY, this program always runs. 
+Controls Jambo's movements in Unity and other useful things tied with her.
+
+History:
+Upload date: May 1, 2024
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
