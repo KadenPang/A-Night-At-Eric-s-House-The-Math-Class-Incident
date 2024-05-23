@@ -15,9 +15,9 @@ Follow the following steps in order to install and modify the game to one's own 
 6. Edit anything you wish!
    
 ## Known bugs
-Forgot to put Bowser in room manager so it doesn't remember that you answered his question if u leave his room daw is too lazy ez fix
-the medpack in room 5 completely nukes all the items in the room
-Quit does not work in browser play.
+- Forgot to put Bowser in room manager so it doesn't remember that the question was answered if room 6 is left
+- The medpack in room 5 completely removes all items in the room if picked up
+- The quit does nothing in itch.io
 
 ## Support
 Developpers contact information: <br>
@@ -31,5 +31,3 @@ Brackeys, “Top down movement in unity!,” YouTube, https://www.youtube.com/wa
 M. O’Didily, “How to get user input and validate it using Unity,” YouTube, https://www.youtube.com/watch?v=EogkNlAkMI8 (accessed May 17, 2024). 
 B. Wagner, “How to convert a string to a number - C#,” How to convert a string to a number - C# | Microsoft Learn, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number (accessed May 17, 2024). 
 “C# exceptions - try..catch,” C# Exceptions (Try..Catch), https://www.w3schools.com/cs/cs_exceptions.php (accessed May 17, 2024). 
-
-Images:
